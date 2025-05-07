@@ -17,7 +17,7 @@ def parse_opt():
     parser.add_argument('--epochs', type=int, default=300)
     parser.add_argument('--optimizer', default='SGD', help='SGD, Adam, AdamW')
     parser.add_argument('--amp', action='store_true', help='open amp')
-    parser.add_argument('--project', default=ROOT + '/output_dir/mscoco', help='save to project/name')
+    parser.add_argument('--project', default='mambaDrone', help='save to project/name')
     parser.add_argument('--name', default='mambayolo', help='save to project/name')
     parser.add_argument('--half', action='store_true', help='use FP16 half-precision inference')
     parser.add_argument('--dnn', action='store_true', help='use OpenCV DNN for ONNX inference')
