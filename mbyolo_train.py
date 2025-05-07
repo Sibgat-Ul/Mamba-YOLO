@@ -36,7 +36,7 @@ if __name__ == '__main__':
         "optimizer": opt.optimizer,
         "device": opt.device,
         "amp": opt.amp,
-        "project": ROOT + opt.project,
+        "project": opt.project,
         "name": opt.name,
     }
     model_conf = ROOT + opt.config
